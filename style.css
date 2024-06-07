@@ -1,0 +1,160 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+    background: #212121;
+    height: 100%;
+    padding: 2rem;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.content .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+.content .user_img img{
+    height: 175px;
+    width: 175px;
+    display: block;
+}
+
+.content .user_name {
+    color: white;
+}
+
+.content .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.content .infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255,255, 0.1);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width:  300;
+
+}
+
+.content .infos img{
+    width: 50px;
+    height: 50px;
+}
+
+.content .infos img:hover {
+    transform: scale(1.05);
+}
+
+
+.content .entretenimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255,255, 0.1);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width:  300;
+}
+
+.content .entretenimento img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.content .entretenimento img:hover {
+    transform: scale(1.05);
+}
+
+
+.content .entretenimentoColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.content .entretenimentoRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.content .botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width:  300;
+}
+
+
+.content #chooseImageButton {
+    background-color: #444444;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 135px;
+  }
+  
+  .content #chooseImageButton:hover {
+    background-color: #838383;
+    transform: scale(1.05);
+  }
+
+  .content #chooseNameButton {
+    background-color: #444444;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 135px;
+  }
+  
+  .content #chooseNameButton:hover {
+    background-color: #838383;
+    transform: scale(1.05);
+  }
+
+  
