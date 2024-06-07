@@ -1,4 +1,6 @@
-<!-- Eliwelton Alves de Oliveira  RA: 171284-->
+<!-- Eliwelton Alves de Oliveira        RA: 171284-->
+<!-- Augusto Andrade Xavier da Silva    RA: 235269-->
+<!-- Matheus Huank Pontes Vallandro     RA: 235910-->
 
 
 <html>
@@ -16,7 +18,21 @@
                         <img id="currentImage" src="Public/User_profile.jpg" alt="">
                     </div>
                     <div id="NomeAtual" class="user_name">Nome de Usuario</div>
-                    <div class="infos" id="infos">
+                    <div class="to-do-list">
+                        <div class="add-item">
+                            <input id="input-new-task" type="text" placeholder="Digite sua nova task">
+                            <button id="btn-new-task" onclick="newTask()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                  </svg>
+                            </button>
+                        </div>
+                        <div class="list">
+                            <ul id="table-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="infos">
                         <div class="redes">
                             <div class="linkedin">
                                     <a href="https://www.linkedin.com/in/" target="_blank">
